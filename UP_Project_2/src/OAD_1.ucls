@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="by.bsu.famcs.z.hierarchy.Plane" project="UP_Project_2" 
+    file="/UP_Project_2/src/by/bsu/famcs/z/hierarchy/Plane.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="151" x="381" y="-10"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="by.bsu.famcs.z.PlaneCompany" project="UP_Project_2" 
+    file="/UP_Project_2/src/by/bsu/famcs/z/PlaneCompany.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="207" x="134" y="-10"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="by.bsu.famcs.z.Main" project="UP_Project_2" 
+    file="/UP_Project_2/src/by/bsu/famcs/z/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="572" y="-10"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="by.bsu.famcs.z.hierarchy.Warplane" project="UP_Project_2" 
+    file="/UP_Project_2/src/by/bsu/famcs/z/hierarchy/Warplane.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="171" x="277" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="by.bsu.famcs.z.hierarchy.Airliner" project="UP_Project_2" 
+    file="/UP_Project_2/src/by/bsu/famcs/z/hierarchy/Airliner.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="173" x="488" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="by.bsu.famcs.z.Utils" project="UP_Project_2" 
+    file="/UP_Project_2/src/by/bsu/famcs/z/Utils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="175" x="725" y="-10"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="by.bsu.famcs.z.hierarchy.Bomber" project="UP_Project_2" 
+    file="/UP_Project_2/src/by/bsu/famcs/z/hierarchy/Bomber.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="176" x="169" y="628"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="by.bsu.famcs.z.hierarchy.Fighter" project="UP_Project_2" 
+    file="/UP_Project_2/src/by/bsu/famcs/z/hierarchy/Fighter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="172" x="385" y="628"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Lamps>
+<LampN org='AABB' P='5' time='13'/>
+<LampN org='ABBB' P='6' time='17'/>
+<LampN org='AAAB' P='7' time='10'/>
+<LampN org='AABB' P='6' time='14'/>
+</Lamps>

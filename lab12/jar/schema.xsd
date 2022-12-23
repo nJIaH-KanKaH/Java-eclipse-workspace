@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="InstancesOfXmlSpecifications">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="XmlFileSpecifications" maxOccurs="unbounded">
+                    <xs:complexType>
+                        
+                        <xs:sequence>
+                            
+                            <xs:element name="rootElementName"/>
+                            
+                            <xs:element name="charCount">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            
+                            <xs:element name="nestingDepth">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="0"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            
+                        </xs:sequence>
+
+                        <xs:attribute name="fileName" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[\w.-]+"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

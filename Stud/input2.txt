@@ -1,0 +1,4 @@
+3
+1 one 1,0 EMPTY 1,0
+2 two 2,0 PROPERTY_4 2,0
+3 three 3,0 PROPERTY_3 3,0

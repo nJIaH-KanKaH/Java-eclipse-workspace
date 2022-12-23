@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Results>
+<Result id='5678901234' lastName='Fifth' course='2' group='2'/>
+<Result id='1234567890' lastName='First' course='3' group='1'/>
+<Result id='1234567891' lastName='First' course='3' group='2'/>
+<Result id='2345678901' lastName='Second' course='3' group='2'/>
+<Result id='3456789012' lastName='Third' course='3' group='2'/>
+<Result id='4567890123' lastName='Fourth' course='3' group='3'/>
+<Result id='5678901234' lastName='Fifth' course='3' group='2'/>
+</Results>

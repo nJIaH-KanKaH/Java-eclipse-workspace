@@ -1,0 +1,6 @@
+5
+4 four 4,3 EMPTY 4,3
+5 five 5,4 PROPERTY_1 5,6
+3 three 3,2 EMPTY 3,2
+2 two 2,1 EMPTY 2,1
+1 one 1,0 PROPERTY_3 1,0

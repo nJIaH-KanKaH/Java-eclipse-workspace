@@ -1,0 +1,25 @@
+{
+    "name":"infList1",
+    "list":[
+        {
+            "name": "tanks",
+            "numberOf":15
+        },
+        {
+            "name": "planes",
+            "numberOf":15
+        },
+        {
+            "name": "ships",
+            "numberOf":30
+        },
+        {
+            "name": "cars",
+            "numberOf":60
+        },
+        {
+            "name": "submarines",
+            "numberOf":20
+        }
+    ]
+}

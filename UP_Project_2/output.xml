@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Planes>
+<Airliner maxHeight='8' places='14' maxBaggage='43' rangeOfFlight='14' fuel='1.2390283'/>
+<Plane maxHeight='5' places='7' weight='1' rangeOfFlight='95' fuel='7.134901'/>
+<Fighter rockets='3' maxSpeed='498' maxHeight='1' places='1' rangeOfFlight='6913' fuel='5.2844634'/>
+<Bomber bombs='14' maxSpeed='126' maxHeight='6' places='12' rangeOfFlight='8256' fuel='1.2505046'/>
+<Fighter rockets='17' maxSpeed='964' maxHeight='10' places='1' rangeOfFlight='8669' fuel='12.399911'/>
+</Planes>
